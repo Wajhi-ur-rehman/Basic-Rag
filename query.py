@@ -1,5 +1,8 @@
 import os
+from dotenv import load_dotenv
 import chromadb
+
+load_dotenv()
 from sentence_transformers import SentenceTransformer
 from groq import Groq
 
